@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* STAR WARS */
+
+#star {
+    background-image: url(assets/star-wars.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.t-sw {
+    font-size: 3rem;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 4px white solid ;
+    font-weight: 900;
+    color: rgb(255, 94, 0);
+}
+
+.st-sw {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: yellow;
+}
+
+.personajes {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.img-sw {
+    height: 560px;
+    border-radius: 20px;
+}
+
+.video {
+    margin: 0 0 60px 0 ;
+}
+
+.p-sw {
+    font-size: 2rem;
+    margin: 40px;
+    color: rgb(0, 195, 255);
+    font-weight: 900;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.553);
+    padding: 20px;
+    border-radius: 30px;
+}
+.nueva-esperanza {
+    padding: 20px;
+}
+
+/* DRACULA */
+
+#dracula {
+    color: red;
+    background-color: red;
+    border-color: red;
+}
+
+.t-d {
+    background-color: rgb(139, 0, 0);
+    padding: 20px;
+    font-size: 3rem;
+    -webkit-text-stroke: 4px solid white ;
+}
+
+.img-d {
+    margin: 20px;
+    height: 560px;
+}
+
+.p-d {
+    font-size: 2rem;
+    background-color: rgb(139, 0, 0);
+    padding: 20px;
+    width: 80%;
+}
+
+/* LA BELLEZA DE LA VIDA */
+
+#belleza {
+    background-image: url(assets/belleza-vida.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vida {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.t-bv {
+    font-size: 3rem;
+    padding: 20px;
+    color: chocolate;
+    font-weight: 900;
+}
+
+.video-bv {
+    padding: 20px;
+}
+
+.p-bv {
+    font-size: 2rem;
+    width: 80%;
+    font-weight: 400;
+}
+
+/* SECCIÓN NAVBAR */
+
+/* NAVBAR */
+
+.navbar {
+    background-color: rgb(120, 13, 34);    
+}
+
+.navbar > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.a:hover {
+    color: crimson;
+    background-color: white;
+    border-radius: 16px;
+    font-weight: 900px;
+}
+
+/* ARTICLE */
+
+#tutoriales {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+article {
+    width: 320px;    
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 60px;
+    border: 2px solid #252525;
+    border-radius: 20px;
+}
+
+.iso {
+    font-size: 1.8rem;
+    color: rgb(0, 106, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+.iso-img {
+    width: 80%;
+    padding: 10px;
+}
+
+.p-iso {
+    text-align: center;
+    font-size: 1.2rem;    
+}
+
+.link-iso {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(0, 106, 255);
+}
+
+.link-iso:hover {
+    color: rgb(152, 23, 49);
+    font-weight: 900;
+}
+
+/* TUTORIALES */
+
+.tuto {
+    width: 100%;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-nv {    
+    font-size: 3rem;
+    color: red;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.p-nv {
+    font-size: 2rem;
+    padding: 10px;
+    width: 60%;
+}
+
+.video-tuto {
+    margin: 20px;
+}
+
+/* JOHANN SEBASTIAN BACH */
+
+#bach {
+    background-image: url(assets/piano.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.t-mu {
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: yellow;
+}
+
+.img-mu {
+    height: 600px;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 153, 0);
+    margin-bottom: 20px;
+}
+
+.texto {
+    padding: 20px;
+    background-color: #252525a0;
+    width: 70%;
+    border-radius: 30px;
+}
+
+.st-mu {
+    font-size: 2rem;
+    color: rgb(255, 217, 0);
+    width: 80%;
+}
+
+.stt-mu {
+    font-size: 2rem;
+    color: rgb(255, 153, 0);
+    width: 80%;
+}
+
+.p-mu {
+    width: 80%;
+    padding: 20px;
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,386 @@
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+/* FLECHA*/
+
+.flecha {
+    flex-direction: row;
+    justify-items: end;
+    align-content: end;
+    float: right;
+    padding: 20px 20px;
+    height: 50px;
+}
+
+/* Titulo */
+
+.tilt {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    letter-spacing: 2px;
+    width: calc(100vw-20px);
+    background-color: brown;
+    padding: 10px;
+}
+
+/* Temario */
+
+.lista {
+    padding: 10px 40px;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.tem {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    padding: 18px 20px;
+    text-decoration: underline #000;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1.6px #000000;
+}
+
+/* SECCION SELECTORES */
+
+.selectores li > a{
+    color: brown;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.selectores li > a:hover {
+    color: yellow;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8em;
+}
+
+.link1{
+    font-size: 1.8em;
+    color: yellow;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.link1:hover {
+    color: rgb(255, 0, 0);
+}
+
+.link2 {
+    font-size: 1.8em;
+    color: blueviolet;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.link2:hover {
+    color: rgb(0, 98, 255);
+}
+
+/* Mini Barra de Navegación */
+
+.mini {
+    margin: 2em;
+    height: 80px;
+    width: 700px;
+    background-color: rgb(255, 178, 255);
+}
+
+.mini-lista {
+    padding: 1.4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+}
+
+.mini-lista__bar{
+    font-size: 1.2em;
+}
+
+.mini-lista__bar a{
+    padding: .5em;
+    text-decoration-line: none;
+    color: white;
+    font-size: 1.4em;
+}
+
+.mini-lista__bar a:hover {
+    background-color: blue;
+}
+
+/* Tabla Selectores*/
+
+table, tr, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 520px;
+    background-color: yellow;
+    border-bottom-style: dashed;
+    border-bottom-color: red;
+    margin-bottom: 2.6em;
+}
+
+th{
+    color: red;
+    font-style: italic;    
+}
+
+/* SECCION FLEXBOX */
+
+.gatos {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gato > img {
+    border-radius: 20px;
+
+}
+
+.txt-gato {
+    text-align: center;
+}
+
+/* SECCION CSS GRID */
+
+.contenedor {
+    height: 60vh;
+    width: 60vw;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: auto 2fr;
+    grid-template-columns: 2fr auto;
+    gap: 1rem;
+}
+
+[class ^= "item-"] {
+    display: grid;
+    place-items: center;
+    border: solid 4px brown;
+    background-color: rgb(0, 115, 255);
+    padding: 1rem;
+    border-radius: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+.contenedor .item-5 {
+    grid-column: 3 / 2;
+}
+
+.contenedor .item-6 {
+    grid-column: 1 / 2;
+}
+
+/* EFECTOS VISUALES */
+
+.contenedor-animacion {
+    height: 60vh;
+    width: 40%;
+}
+
+.div1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+@keyframes example1 {
+    0% {background-color: red; left:0px;}
+    50% {background-color: yellow; left:12.5rem;}
+    100% {background-color: red; left:0px;}        
+}
+
+.div2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+
+@keyframes example2 {
+    0% {background-color: red; left:0px; top:0px;}
+    25% {background-color: blue; left:0px; top:12.5rem;}
+    50% {background-color: green; left:12.5rem; top:12.5rem;}
+    75% {background-color: yellow; left:12.5rem; top:0px;}
+    100% {background-color: red; left:0px; top:0px};
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 780px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .flecha {
+        display: none;
+    }
+
+    .tilt {
+        width: calc(100vw-60px);
+        font-size: 48px;
+    }
+
+    
+    .mini {
+        margin: 0;
+        width: 480px;
+        height: 28vh;
+        display: block;
+        flex-direction: column;
+    }
+
+    .mini-lista {
+        flex-direction: column;
+        justify-items: start;
+        align-content: center;
+    }
+
+    .mini-lista__bar {
+        padding: 1.2rem;
+    }
+
+    table, tr, td {
+        width: 460px;
+    }
+
+    @keyframes example1 {
+        0% {background-color: red; left:-85px;}
+        50% {background-color: yellow; left:7.5rem;}
+        100% {background-color: red; left:-85px;}        
+    }
+
+    @keyframes example2 {
+        0% {background-color: red; left:-85px; top:0px;}
+        25% {background-color: blue; left:-80px; top:12.5rem;}
+        50% {background-color: green; left:7.5rem; top:12.5rem;}
+        75% {background-color: yellow; left:7.5rem; top:0px;}
+        100% {background-color: red; left:-85px; top:0px};
+    }
+}
+
+@media screen and (max-width: 470px) {
+
+    .tilt {
+        font-size: 34px;
+        width: 100%;
+    }
+
+    .gato > img {
+        width: 330px;
+    }
+
+    .links,
+    .link1,
+    .link2 {
+        display: block;
+        flex-wrap: column;
+        gap: 6px;
+        text-align: center;
+    }
+
+    .mini {
+        margin: 0;
+        width: 350px;
+        height: 28vh;
+        display: block;
+        flex-direction: column;
+    }
+
+    table, tr, td {
+        width: 350px;
+    }
+
+    @keyframes example1 {
+        0% {background-color: red; left:-94px;}
+        50% {background-color: yellow; left:5.875rem;}
+        100% {background-color: red; left:-94px;}        
+    }
+
+    @keyframes example2 {
+        0% {background-color: red; left:-94px; top:0px;}
+        25% {background-color: blue; left:-80px; top:12.5rem;}
+        50% {background-color: green; left:5.875rem; top:12.5rem;}
+        75% {background-color: yellow; left:5.875rem; top:0px;}
+        100% {background-color: red; left:-94px; top:0px};
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    @keyframes example1 {
+        0% {background-color: red; left:-120px;}
+        50% {background-color: yellow; left:5.875rem;}
+        100% {background-color: red; left:-120px;}        
+    }
+
+    @keyframes example2 {
+        0% {background-color: red; left:-120px; top:0px;}
+        25% {background-color: blue; left:-120px; top:12.5rem;}
+        50% {background-color: green; left:5.875rem; top:12.5rem;}
+        75% {background-color: yellow; left:5.875rem; top:0px;}
+        100% {background-color: red; left:-120px; top:0px};
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

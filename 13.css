@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VIAJES SUBMARINOS - JULIO VERNE */
+
+#viajes {
+    background-image: url(assets/rustico.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.submarino {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.t-vs {
+    font-size: 3rem;
+    color: rgb(99, 18, 18);
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 20px;  
+}
+
+.texto-viajes {
+    width: 80%;
+}
+
+.p-vs {
+    font-size: 1.8rem;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+}
+
+.p-vs > i {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.img-jv {
+    height: 600px;
+    border-radius: 50%;
+}
+
+/* LISTAS */
+
+/* ORDEN */
+
+#listas {
+    display: grid;
+    padding: 20px;
+    grid-template-rows: 1fr;
+    gap: 40px;
+    background-color: rgb(0, 102, 255);
+}
+
+.orden {
+    background-color: rgb(0, 153, 255, 0.604);
+    border-radius: 60px;
+}
+
+.orden > h1 {
+    font-size: 1.8rem;
+    color: rgb(255, 183, 0);
+}
+
+.orden > ol {
+    padding: 20px;    
+}
+
+.orden > ol > li {
+    list-style: none;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+/* INGREDIENTES */
+
+.ingredientes {
+    background-color: rgba(0, 153, 255, 0.604);
+    border-radius: 60px;
+}
+
+.ingredientes > h1 {
+    font-size: 1.8rem;
+    color: rgb(255, 183, 0);
+}
+
+.ingredientes > ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.ingredientes > ul > li {
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+/* PAN */
+
+.pan > h1 {
+    font-size: 1.8rem;
+    color: rgb(255, 183, 0);
+}
+
+.pan > h2 {
+    font-size: 1.4rem;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.pan > ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.pan > ul > li {
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+.pan > ol {
+    list-style: none;
+    padding: 20px;
+}
+
+.pan > ol > li {
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+/* NAVEGADORES */
+
+.estudio {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.texto-nav {
+    padding: 10px;    
+}
+
+.t-n {
+    font-size: 2.6rem;
+    color: red; 
+}
+
+.p-n {
+    font-size: 1.4rem;
+    width: 90%;
+    padding: 20px;
+}
+
+.estudio > figure > img {
+    padding: 20px;
+    width: 800px;
+}
+
+figcaption{
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+/* TABLAS */
+
+.verdad {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    padding: 20px;
+}
+
+.texto-tabla > h1 {
+    font-size: 3rem;
+    color: red;
+    padding: 20px;
+}
+
+.p-t {
+    font-size: 1.4rem;
+    width: 90%;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
