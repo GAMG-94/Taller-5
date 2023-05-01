@@ -4,6 +4,47 @@
     box-sizing: border-box;
 }
 
+/* MENU */
+
+.men-u {
+    background-color: brown;
+    padding: 22px;
+}
+
+.men-u > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-menu {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: all .4s;
+}
+
+.link-menu:hover {
+    color: rgb(255, 200, 0);
+    background-color: rgb(42, 0, 0);
+    border-radius: 8px;
+}
+
+/* TITULO PUNTO DEL TALLER */
+
+.punto-taller {
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: rgb(87, 21, 21);
+}
+
 /* STAR WARS */
 
 #star {
@@ -244,7 +285,7 @@ article {
 }
 
 .img-mu {
-    height: 600px;
+    height: 500px;
     border-radius: 50%;
     border: 4px solid rgb(255, 153, 0);
     margin-bottom: 20px;

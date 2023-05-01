@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MENU */
+
+.men-u {
+    background-color: brown;
+    padding: 22px;
+}
+
+.men-u > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-menu {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: all .4s;
+}
+
+.link-menu:hover {
+    color: rgb(255, 200, 0);
+    background-color: rgb(42, 0, 0);
+    border-radius: 8px;
+}
+
+/* TITULO PUNTO DEL TALLER */
+
+.punto-taller {
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 20px;
+    color: brown;
+    text-decoration: underline;
+}
+
+/* FORMULARIO */
+
+.form-label{
+    margin-top: 20px;
+    color: rgb(0, 149, 255);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.form-control{
+    width: 40%;
+    border-color: black;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

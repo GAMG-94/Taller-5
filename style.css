@@ -45,8 +45,30 @@ body {
 
 /* SECCION SELECTORES */
 
+.enlaces {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: brown;
+}
+
+.puntos > ul {
+    list-style-type: decimal;
+}
+
+.puntos > ul > li > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.4rem;
+    list-style: none;
+}
+
+.puntos > ul > li > a:hover {
+    color: yellow;
+}
+
 .selectores li > a{
-    color: brown;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 900;
     font-size: 1.4rem;

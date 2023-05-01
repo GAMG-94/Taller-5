@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="17.css">
+    <title>PUNTO 17</title>
+</head>
+<body>
+    
+    <section id="menu-nav">
+        <nav class="men-u">                
+            <ul>
+                <li class="li-na"><a class="link-menu" href="index.html">INICIO</a></li>
+                <li class="li-na"><a class="link-menu" href="11.html">PUNTO 11</a></li>
+                <li class="li-na"><a class="link-menu" href="12.html">PUNTO 12</a></li>
+                <li class="li-na"><a class="link-menu" href="13.html">PUNTO 13</a></li>
+                <li class="li-na"><a class="link-menu" href="14.html">PUNTO 14</a></li>
+                <li class="li-na"><a class="link-menu" href="15.html">PUNTO 15</a></li>
+                <li class="li-na"><a class="link-menu" href="16.html">PUNTO 16</a></li>
+                <li class="li-na"><a class="link-menu" href="17.html">PUNTO 17</a></li>
+            </ul>
+        </nav>
+    </section>
+    <center><h1 class="punto-taller">PUNTO 17</h1></center> 
+    <section>
+        <div class="formulario">
+            <form action="../../form-result.php" method="post" target="_blank">
+                <p>Nombre de usuario: <input type="text" name="usuario"></p>
+                <p>Contraseña: <input type="password" name="pass"></p>
+                <p><input type="submit" value="Enviar datos"></p>
+                </form>
+                <form action="../../form-result.php" method="post" target="_blank">
+                <p><label>Nombre completo: <input type="text" name="nombrecompleto"></label></p>
+                <p>Género:
+                <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                </p>
+                <p><label>Dirección: <input type="text" name="direccion"></label></p>
+                <p>Intereses:
+                <label><input type="checkbox" name="libros"> Libros</label>
+                <label><input type="checkbox" name="peliculas"> Películas</label>
+                <label><input type="checkbox" name="videojuegos"> Videojuegos</label>
+                </p>
+                <p><input type="submit" value="Enviar datos"> <input type="reset" value="Restaurar
+                formulario"></p>
+                </form>
+                <form action="../../form-result.php" method="get" target="_blank">
+                <fieldset>
+                <legend>Información básica</legend>
+                <p><label>Nombre completo: <input type="text" name="nombrecompleto"></label></p>
+                <p><label>Fecha de nacimiento: <input type="date" name="fechadenacimiento"></label></p>
+                <p>Gender:
+                <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                </p>
+                <p><label>Dirección: <input type="text" name="direccion"></label></p>
+                <p><label>Número telefónico: <input type="tel" name="telefono"></label></p>
+                </fieldset>
+                <fieldset>
+                <legend>Información extra</legend>
+                <p>Interests:
+                <label><input type="checkbox" name="libros"> Libros</label>
+                <label><input type="checkbox" name="peliculas"> Películas</label>
+                <label><input type="checkbox" name="videojuegos"> Videojuegos</label>
+                </p>
+                <p><label>Color favorito: <input type="color" name="colorfavorito"></label></p>
+                </fieldset>
+                <p>
+                <input type="submit" value="Enviar datos">
+                <input type="reset" value="Restaurar formulario">
+                </p>
+                </form>
+                <form action="../../form-result.php" method="post" enctype="multipart/form-data"
+                target="_blank">
+                <p><label>Archivo: <input type="file" name="archivo"></label> <input type="submit"
+                value="Enviar datos"></p>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

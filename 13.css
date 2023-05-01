@@ -4,6 +4,47 @@
     box-sizing: border-box;
 }
 
+/* MENU */
+
+.men-u {
+    background-color: brown;
+    padding: 22px;
+}
+
+.men-u > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-menu {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: all .4s;
+}
+
+.link-menu:hover {
+    color: rgb(255, 200, 0);
+    background-color: rgb(42, 0, 0);
+    border-radius: 8px;
+}
+
+/* TITULO PUNTO DEL TALLER */
+
+.punto-taller {
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: rgb(87, 21, 21);
+}
+
 /* VIAJES SUBMARINOS - JULIO VERNE */
 
 #viajes {
@@ -45,8 +86,8 @@
 }
 
 .img-jv {
-    height: 600px;
-    border-radius: 50%;
+    height: 500px;
+    border-radius: 30px;
 }
 
 /* LISTAS */
@@ -68,6 +109,7 @@
 
 .orden > h1 {
     font-size: 1.8rem;
+    padding: 20px;
     color: rgb(255, 183, 0);
 }
 
@@ -90,6 +132,7 @@
 
 .ingredientes > h1 {
     font-size: 1.8rem;
+    padding: 20px;
     color: rgb(255, 183, 0);
 }
 
@@ -112,7 +155,7 @@
 
 .pan > h2 {
     font-size: 1.4rem;
-    padding: 10px;
+    padding: 20px;
     color: rgb(255, 255, 255);
 }
 
@@ -178,12 +221,18 @@ figcaption{
     display: grid;
     grid-template-columns: 4fr 2fr;
     padding: 20px;
+    background-color: darkcyan;
 }
 
 .texto-tabla > h1 {
     font-size: 3rem;
     color: red;
     padding: 20px;
+    font-weight: 900;
+}
+
+.text-align-center {
+    font-weight: 900px;
 }
 
 .p-t {
@@ -191,6 +240,96 @@ figcaption{
     width: 90%;
     padding-bottom: 40px;
 }
+
+.default {
+    height: 240px;
+    width: 240px;
+}
+
+.txt {
+    font-size: 1.6rem;
+    padding: 10px;
+    color: red;
+}
+
+/* ESTRELLA FUGAZ */
+
+.estrella {
+    background-color: rgb(19, 19, 107);
+    padding: 20px;
+}
+
+.e-f {
+    font-size: 3rem;
+    padding: 20px;
+    color: rgb(255, 208, 0);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+.pie-pagina {
+    display: block;
+    background-color: black;
+    padding: 40px;
+}
+
+.pie-pagina > h1 {
+    color: red;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.pie-pagina > p {
+    font-size: 2rem;
+    color: orangered;
+}
+
+.address {
+    color: white;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+.des-li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.des-li > li {
+    padding: 20px;
+}
+
+.link-foo {
+    text-decoration: none;
+    color: red;
+    font-size: 1.6rem;
+    transition: all .4s;
+}
+
+.link-foo:hover {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

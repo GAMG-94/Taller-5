@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MENU */
+
+.men-u {
+    background-color: brown;
+    padding: 22px;
+}
+
+.men-u > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-menu {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: all .4s;
+}
+
+.link-menu:hover {
+    color: rgb(255, 200, 0);
+    background-color: rgb(42, 0, 0);
+    border-radius: 8px;
+}
+
+/* TITULO PUNTO DEL TALLER */
+
+.punto-taller {
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: rgb(87, 21, 21);
+}
+
+/* WORLD WILDE WEB */
+
+#www {
+    background-image: url(assets/internet.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.net {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.t-www {
+    font-size: 3.2rem;
+    padding: 20px;
+    color: #040;
+}
+
+.img-tbl {
+    height: 400px;
+    border-radius: 20px;
+}
+
+.img-www {
+    height: 400px;
+}
+
+.p-www {
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 20px;
+    width: 60%;
+    background-color: rgba(240, 248, 255, 0.445);
+    border-radius: 60px;
+}
+
+/* CURSOS */
+
+/* CURSO DE HTML */
+
+#html {
+    background-color: rgb(0, 136, 255);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+.curso {
+    font-size: 3rem;
+    color: orangered;
+    padding: 20px;
+}
+
+.imagen-html {
+    padding-top: 60px;
+}
+
+.img-html {
+    background-color: aliceblue;
+    border-radius: 100%;
+}
+
+.cursos {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.e-a {
+    padding: 20px;
+}
+
+.etiqueta-a {
+    font-size: 3rem;
+    color: orangered;
+    padding: 20px;
+}
+
+.p-a {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.p-a > a {
+    color: rgb(255, 136, 0);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+/* ETIQUETA TIEMPO */
+
+.tiempo {
+    padding: 20px;
+}
+
+.tmp {
+    font-size: 3rem;
+    color: orangered;
+    padding: 20px;
+    -webkit-text-stroke: solid 4px white;
+}
+
+.tiempo > time {
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    padding: 6px;
+}
+
+/* ETIQUETA BLOCKQUOTE */
+
+#blockquote {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+}
+
+.etiqueta-block {
+    padding: 20px;
+}
+
+.e-block {
+    color: white;
+    font-size: 3rem;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.p-block {
+    width: 80%;
+    font-size: 1.6rem;
+    padding: 10px;
+}
+
+pre {
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
