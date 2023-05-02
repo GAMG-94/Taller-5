@@ -1,0 +1,53 @@
+<section>
+        <div class="formulario-2">
+            <form action="../../form-result.php" method="post" target="_blank">
+                <p><label>Nombre completo: <input class="input" type="text" name="nombrecompleto"></label></p>
+                <p>Género:
+                <label><input class="input-radio" type="radio" name="genero" value="masculino"> Masculino</label>
+                <label><input class="input-radio" type="radio" name="genero" value="femenino"> Femenino</label>
+                </p>
+                <p><label>Dirección: <input class="input" type="text" name="direccion"></label></p>
+                <p>Intereses:
+                <label><input class="input" type="checkbox" name="libros"> Libros</label>
+                <label><input class="input" type="checkbox" name="peliculas"> Películas</label>
+                <label><input class="input" type="checkbox" name="videojuegos"> Videojuegos</label>
+                </p>
+                <p><input class="input" type="submit" value="Enviar datos"> <input class="input" type="reset" value="Restaurar
+                formulario"></p>
+            </form>            
+        </div>
+    </section>
+    <section>
+        <div class="formulario-3">   
+            <form action="../../form-result.php" method="get" target="_blank">
+                <fieldset>
+                <legend class="separadores">Información básica</legend class="separadores">
+                <p><label>Nombre completo: <input class="input" type="text" name="nombrecompleto"></label></p>
+                <p><label>Fecha de nacimiento: <input class="input" type="date" name="fechadenacimiento"></label></p>
+                <p>Gender:
+                <label><input class="input" type="radio-radio" name="genero" value="masculino"> Masculino</label>
+                <label><input class="input" type="radio-radio" name="genero" value="femenino"> Femenino</label>
+                </p>
+                <p><label>Dirección: <input class="input" type="text" name="direccion"></label></p>
+                <p><label>Número telefónico: <input class="input" type="tel" name="telefono"></label></p>
+                </fieldset>
+                <fieldset>
+                <legend class="separadores">Información extra</legend class="separadores">
+                <p>Interests:
+                <label><input class="input" type="checkbox" name="libros"> Libros</label>
+                <label><input class="input" type="checkbox" name="peliculas"> Películas</label>
+                <label><input class="input" type="checkbox" name="videojuegos"> Videojuegos</label>
+                </p>
+                <p><label>Color favorito: <input class="input" type="color" name="colorfavorito"></label></p>
+                </fieldset>
+                <p>
+                <input class="input" type="submit" value="Enviar datos">
+                <input class="input" type="reset" value="Restaurar formulario">
+                </p>
+            </form>         
+            <form action="../../form-result.php" method="post" enctype="multipart/form-data" target="_blank">
+                <p><label>Archivo: <input class="input" type="file" name="archivo"></label> <input class="input" type="submit"
+                value="Enviar datos"></p>
+            </form>
+        </div>
+    </section> 

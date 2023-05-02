@@ -78,6 +78,10 @@ div {
     margin: 40px;
 }
 
+#tabla-2 {
+    margin: 40px;
+}
+
 table.default1 th {
     padding: .2em .8em;
     border: 1px solid rgba(20,50,90,.25);
