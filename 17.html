@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,16 +22,44 @@
             </ul>
         </nav>
     </section>
-    <center><h1 class="punto-taller">PUNTO 17</h1></center> 
-    <section>
-    <div class="formulario">
-        <form action="../../form-result.php" method="post" target="_blank">
+    <center>
+    <h1 class="punto-taller">PUNTO 17</h1>
+    <section id="form-1">
+    <div class="formulario-1">
+        <form class="form-u" action="../../form-result.php" method="post" target="_blank">
             <p>Nombre de usuario: <input class="input" type="text" name="usuario"></p>
-            <p>Contraseña: <input class="input" type="password" name="pass"></p>
-            <p><input class="input" type="submit" value="Enviar datos"></p>
+            <p>Contraseña: <input class="input-pass" type="password" name="pass"></p>
+            <p><input class="input-btn" type="submit" value="Enviar datos"></p>
         </form>        
     </div>
     </section>
-     
+    <section id="form-2">
+        <div class="formulario-2">
+            <form class="form-u-2" action="../../form-result.php" method="post" target="_blank">
+                <p><label>Nombre completo: <input class="input-2" type="text" name="nombrecompleto"></label></p>
+                <p class="p-gen">Género:
+                <label><input class="input-rad" type="radio" name="genero" value="masculino"> Masculino</label>
+                <label><input class="input-rad" type="radio" name="genero" value="femenino"> Femenino</label>
+                </p>
+                <p><label>Dirección: <input class="input-dir" type="text" name="direccion"></label></p>
+                <p class="p-intereses">Intereses:
+                <label><input class="chk" type="checkbox" name="libros"> Libros</label>
+                <label><input class="chk" type="checkbox" name="peliculas"> Películas</label>
+                <label><input class="chk" type="checkbox" name="videojuegos"> Videojuegos</label>
+                </p>
+                <p><input class="input-btn-2" type="submit" value="Enviar datos"> <input class="input-rest" type="reset" value="Restaurar formulario"></p>
+            </form>
+        </div>
+    </section>
+    <section id="form-3">
+        <div class="formulario-3">
+            <form class="form-u-3" action="../../form-result.php" method="post" enctype="multipart/form-data"
+            target="_blank">
+            <p><label>Archivo: <input class="input-file" type="file" name="archivo"></label> <input class="input-btn-3" type="submit"
+            value="Enviar datos"></p>
+            </form>
+        </div>
+    </section>
+    </center>  
 </body>
 </html>
